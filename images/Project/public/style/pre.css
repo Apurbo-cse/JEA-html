@@ -1,0 +1,39 @@
+.preloader {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.center-pre {
+    width: 10rem;
+    height: 10rem;
+    position: relative;
+    margin-right: 20px;
+}
+
+.pre-rot {
+    width: 10rem;
+    height: 10rem;
+    border-right: 0.3rem solid #000;
+    border-radius: 50%;
+    animation: rot 2s linear infinite;
+    position: absolute;
+}
+
+@keyframes rot {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+b {
+    color: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

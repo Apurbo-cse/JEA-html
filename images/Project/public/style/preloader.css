@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.preloader {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    display: grid;
+    place-items: center;
+}
+
+.center-pre {
+    width: 15rem;
+    height: 15rem;
+    position: relative;
+    /*background-color: #fff;*/
+}
+
+.pre-rot {
+    width: 15rem;
+    height: 15rem;
+    border-right: 0.3rem solid #fff;
+    border-radius: 50%;
+    animation: rot 2s linear infinite;
+    position: absolute;
+}
+
+@keyframes rot {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+h1 {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

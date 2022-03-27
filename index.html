@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="asset/css/nav.css">
+    <link rel="stylesheet" href="asset/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+    
+  <!-- Navber -->
+  <div class="mobile-fixed-toolbar">
+    <ul class="top-nav-mobile-left">
+        <li style="width:50%;">
+            <a href=""><img src="http://127.0.0.1:8000/frontend/images/logo.png" style="width:60px;padding-top:2px;"></a>
+        </li>
+    </ul>
+    <ul class="top-nav-mobile">
+        <li><a href="" id="pull" class="toggle-mobile-menu"><i class="fa-solid fa-bars" style="color:black;margin-top:-20px;"></i><i class="uil uil-apps" aria-hidden="true" ></i></a></li>
+    </ul>
+</div>
+
+<style>
+
+</style>
+<nav id="navigation" class="primary-navigation" role="navigation">
+    <div id="nav-container">
+    <ul id="menu-header-menu" class="menu">
+        <li><a href="/public" >Home</a></li>
+        <li><a href="http://127.0.0.1:8000/public/about">About</a></li>
+        <li>
+            <div class="dropdownMobile">
+                <a class="dropbtn" style="color:black;">Engineer's</a>
+                <div class="dropdownMobile-content">
+                    <a href="http://127.0.0.1:8000/public/engineers/msc">MSc in Engineer</a>
+                    <a href="http://127.0.0.1:8000/public/engineers/bsc">BSc in Engineer</a>
+                    <a href="http://127.0.0.1:8000/public/engineers/bsc-dipolma">BSc in Engineer (Diploma)</a>
+                    <a href="http://127.0.0.1:8000/public/engineers/diploma">Diploma in Engineer</a>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="dropdownMobile">
+                <a class="dropbtn"style="color:black;" >Info</a>
+                <div class="dropdownMobile-content">
+                    <a href="#">President</a>
+                    <a href="#">Coneving Memeber</a>
+                    <a href="http://127.0.0.1:8000/public/info/developer">Developer Info</a>
+                </div>
+            </div>
+        </li>
+        <li><a href="http://127.0.0.1:8000/public/gallery">Gallery</a></li>
+        <li><a href="http://127.0.0.1:8000/public/blog">Blog</a></li>
+        <li><a href="http://127.0.0.1:8000/public/contact">Contact</a></li>
+
+
+        <!-- Authentication Links -->
+                <li>
+          <a class="nav-link" href="http://127.0.0.1:8000/login">Login</a>
+        </li>
+
+        
+    </ul>
+
+    <div id="header-user-info-container" class="hidden-to-guest">
+          <span id="robi-header-logo">
+            <a href=""> <img src="http://127.0.0.1:8000/frontend/images/logo.png" style="width:50px; padding-top:5px;" ></a>
+          </span>
+    </div>
+
+</div>
+</nav>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<script src="asset/js/nav.js"></script>
+<script src="https://code.iconify.design/2/2.2.0/iconify.min.js"></script>
+</body>
+</html>
